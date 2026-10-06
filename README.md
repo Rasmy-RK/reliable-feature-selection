@@ -4,6 +4,14 @@
 
 How reliably can feature-selection methods recover truly informative features as dimensionality, noise, and feature redundancy increase?
 
+### Research Summary
+
+This project investigates how reliably feature-selection methods can identify informative features in high-dimensional datasets as dimensionality, noise, and feature redundancy increase.
+
+Three feature-selection approaches are compared: Mutual Information (MI), an mRMR-style relevance–redundancy method, and L1-regularized logistic regression. Experiments are conducted on controlled synthetic datasets with 50, 100, 200, and 500 dimensions across multiple random seeds.
+
+The methods are evaluated using exact feature recovery, information-group recovery, noise selections, and the number of selected features. The results show that L1 regularization maintained complete recovery of the informative feature groups in the tested synthetic settings, while MI and the mRMR-style method became less reliable as dimensionality increased.
+
 ## Motivation
 
 Feature selection is important when datasets contain many variables, especially when some features are redundant or irrelevant.
