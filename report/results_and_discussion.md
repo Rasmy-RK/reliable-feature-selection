@@ -174,3 +174,5 @@ mRMR formulation.
 
 Future work could evaluate the methods on real datasets and investigate
 how parameter choices affect recovery, stability, and predictive performance.
+
+The final comparison focuses on feature-selection recovery metrics rather than predictive generalization. In particular, the L1 comparison uses the full synthetic dataset for fitting and evaluating feature-selection recovery. Therefore, these results should not be interpreted as estimates of out-of-sample predictive performance. A separate train/test experiment was conducted during development to examine predictive accuracy under a proper train-only standardization procedure.
